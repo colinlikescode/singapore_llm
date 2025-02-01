@@ -1,0 +1,13 @@
+s3:
+  bucket: singapore-llm-models
+  region: us-east-1
+
+training:
+  epochs: 10
+  learning_rate: 0.0001
+  data_url: s3://prod-data-singapore-llm/training-data/dataset_v1.jsonl
+
+inference:
+  device: cpu
+  model_weights_url: s3://prod-model-warehouse/singapore-llm/weights/latest.pt
+  tokenizer_model: bert-base-uncased

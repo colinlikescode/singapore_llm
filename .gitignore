@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+sdist/
+*.egg
+
+# Test and cache directories
+.cache/
+.pytest_cache/
+
+# Model weights and checkpoints
+*.pt
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor folder (if using Go modules vendor)
+vendor/
+
+# Editor and IDE directories
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local configuration files (that may contain secrets)
+config/*.local.yaml
+config/*.secret.yaml
