@@ -1,7 +1,7 @@
 > [!Important]
 > This is an experimental repository & is not meant to be production ready!
 
-### GOAL
+## GOAL
 
 The goal was to create a 2-billion-parameter language model capable of running on a laptop. One issue with products like ChatGPT and Claude is that they don’t understand government services—like Singpass, CPF, or the National Service Portal—well enough for Singaporeans, especially senior citizens who need the most help. As a result, they can’t effectively assist this population with their day to day tasks
 
