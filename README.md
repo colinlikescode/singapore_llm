@@ -7,7 +7,7 @@ The goal was to create a 2-billion-parameter language model capable of running o
 
 <br>
 
-### How the model & framework was created
+### How the Model & Framework were Created
 
 - **Training & Model:**
   - **Frameworks:** PyTorch, Hugging Face Transformers
@@ -20,15 +20,14 @@ The goal was to create a 2-billion-parameter language model capable of running o
 - **Inference Service:**
   - **Framework:** FastAPI served with Uvicorn
   - **Integration:** Direct HTTP calls from the Go API
-- **Data & Storage:**
-  - **Data Sources:**
-    1. [Common Crawl](https://data.commoncrawl.org/crawl-data/CC-MAIN-2024-22/index.html)
-    2. [ChatGPT Conversations](https://www.kaggle.com/datasets/noahpersaud/89k-chatgpt-conversations)
-    3. [Wikipedia](https://www.kaggle.com/datasets/jjinho/wikipedia-20230701)
-    4. [Reddit Comments](https://github.com/PolyAI-LDN/conversational-datasets/tree/master/reddit)
-    5. [BookCorpus](https://paperswithcode.com/dataset/bookcorpus)
-    6. [Project Gutenberg](https://www.gutenberg.org)
-    7. Government websites scraped via Playwright
+- **Data Sources:**
+  1. [Common Crawl](https://data.commoncrawl.org/crawl-data/CC-MAIN-2024-22/index.html)
+  2. [ChatGPT Conversations](https://www.kaggle.com/datasets/noahpersaud/89k-chatgpt-conversations)
+  3. [Wikipedia](https://www.kaggle.com/datasets/jjinho/wikipedia-20230701)
+  4. [Reddit Comments](https://github.com/PolyAI-LDN/conversational-datasets/tree/master/reddit)
+  5. [BookCorpus](https://paperswithcode.com/dataset/bookcorpus)
+  6. [Project Gutenberg](https://www.gutenberg.org)
+  7. Government websites scraped via Playwright
 
 ### MIT License
 
